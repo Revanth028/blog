@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Home Image */
+#Home{
+    background-image: url(pic4.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#about{
+    background-image: url(pic1.jpg);
+    min-height: 520px;
+    background-position: left center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* Portfolio */
+#img1{
+    background-image: url(pic3.jpg);
+    min-height: 500px;
+    background-position: left center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#img2{
+    background-image: url(pic8.jpg);
+    min-height: 500px;
+    background-position: right center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#img3{
+    background-image: url(pic6.jpg);
+    min-height: 500px;
+    background-position: left center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#img4{
+    background-image: url(pic7.jpg);
+    min-height: 500px;
+    background-position: right center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
